@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+python-dotenv==1.0.1
+sqlalchemy==2.0.38
+psycopg2-binary==2.9.10
+redis==5.2.1
+requests==2.32.3
+openai==0.28.1          # ← Fixed: uses the old version your code needs
+anthropic==0.42.0
+streamlit==1.42.0
+google-cloud-pubsub==2.27.0
